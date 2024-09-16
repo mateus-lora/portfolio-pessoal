@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 760px;
+    /*border: 2px solid #fefefe;*/
+    margin-top: 80px;
+    
+}
+
+body {
+    background: url(/assets/bg-desktop.jpg) no-repeat top center/cover;
+    width: 100vw; /* Ocupa 100% da largura da viewport */
+    height: 100vh; /* Ocupa 100% da altura da viewport */
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    padding: auto;
+    margin-bottom: 40px;
+    /*border: 2px solid #fefefe;*/
+}
+
+.opcao {
+    margin: auto;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+
+/*#nome {
+    display: inline-flex;
+    margin: 8px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+}*/
+
+#perfil {
+    display: inline-flex;
+    width: 50%;
+    /*border: 2px solid #fefefe;*/
+
+}
+
+#titulo {
+    display: inline-flex;
+    /*border: 2px solid #fefefe;*/
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+}
+
+#alinhamentoPerfil {
+    display: flex; /* Alinha os itens #perfil e #titulo lado a lado */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    align-items: center; /* Centraliza verticalmente os itens */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura */
+    /*border: 2px solid #fefefe;*/
+}
+
+#flecha {
+    display: flex;
+    margin: 20px;
+    max-width: 110px;
+    margin-inline: auto;
+}
+
+
