@@ -6,8 +6,8 @@
     margin-inline: auto;
     max-width: 760px;
     /*border: 2px solid #fefefe;*/
-    margin-top: 80px;
-    
+    padding-top: 60px;
+    min-height: 640px;
 }
 
 body {
@@ -27,7 +27,7 @@ a {
     text-align: center;
     display: flex;
     padding: auto;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     /*border: 2px solid #fefefe;*/
 }
 
@@ -84,11 +84,44 @@ a {
 }
 
 #imagemMateus {
-    max-width: 200px;
-}
-
-.secao {
+    /*border: 2px solid #fefefe;*/
     max-width: 300px;
-    margin-top: 80px;
+
 }
 
+#tituloSobreMim {
+    /*border: 2px solid #fefefe;*/
+    text-align: center;
+    margin: auto;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#textoSobreMim {
+    /*border: 2px solid #fefefe;*/
+    margin-top: 60px;
+    
+}
+
+#alinhamentoSobreMim {
+    /*border: 2px solid #fefefe;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.topo {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin: 35px;
+    border: 2px solid #fefefe;
+    
+}
