@@ -85,19 +85,19 @@ a {
 
 #imagemMateus {
     /*border: 2px solid #fefefe;*/
-    max-width: 300px;
+    max-width: 290px;
     margin-top: 24px;
 
 }
 
-#tituloSobreMim {
+#tituloSection {
     /*border: 2px solid #fefefe;*/
     text-align: center;
     margin: auto;
     font-family: "Julius Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 #textoSobreMim {
@@ -111,7 +111,7 @@ a {
     
 }
 
-#alinhamentoSobreMim {
+#alinhamentoSection {
     /*border: 2px solid #fefefe;*/
     display: flex;
     justify-content: space-between;
@@ -121,6 +121,34 @@ a {
 
 }
 
+#alinhamentoFormacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-indent: 32px;
+
+}
+
+.icone {
+    display: inline-flex;
+    margin: 20px;
+}
+
+#alinhamentoIcones {
+    margin-top: 50px;
+    /*border: 2px solid #fefefe;*/
+    text-align: center;
+    width: 100%;
+}
+
+#flechaSkills {
+    display: flex;
+    max-width: 110px;
+    margin: 60px;
+    margin-inline: auto;
+}
+
 .topo {
     display: block;
     text-align: center;
@@ -128,8 +156,16 @@ a {
     font-family: "Julius Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
-    margin: 35px;
-    border: 2px solid #fefefe;
+    font-size: 14px;
+    margin-top: 71px;
+    /*border: 2px solid #fefefe;*/
     
+}
+
+#flecha1 {
+    display: flex;
+    max-width: 110px;
+    margin: 100px;
+    margin-inline: auto;
+    /*border: 2px solid #fefefe;*/
 }
