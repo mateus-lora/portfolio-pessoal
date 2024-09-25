@@ -102,7 +102,7 @@ a {
 
 #textoSobreMim {
     /*border: 2px solid #fefefe;*/
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 19px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -132,7 +132,8 @@ a {
 
 .icone {
     display: inline-flex;
-    margin: 20px;
+    margin: 15px;
+    width: 16%;
 }
 
 #alinhamentoIcones {
@@ -145,7 +146,7 @@ a {
 #flechaSkills {
     display: flex;
     max-width: 110px;
-    margin: 60px;
+    margin: 30px;
     margin-inline: auto;
 }
 
@@ -168,4 +169,24 @@ a {
     margin: 100px;
     margin-inline: auto;
     /*border: 2px solid #fefefe;*/
+}
+
+.certificado {
+    display: inline-flex;
+    margin: 15px;
+    width: 45%;
+}
+
+#imagemContato {
+    
+    display: inline-flex;
+    margin: 15px;
+    width: 45%;
+}
+
+.redeSocial {
+    display: inline-flex;
+    margin: 10px;
+    margin-top: 28px;
+    width: 6%;
 }
