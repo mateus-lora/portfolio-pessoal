@@ -86,8 +86,7 @@ a {
 #imagemMateus {
     /*border: 2px solid #fefefe;*/
     max-width: 290px;
-    margin-top: 24px;
-
+    margin-bottom: 20px;
 }
 
 #tituloSection {
@@ -112,13 +111,21 @@ a {
 }
 
 #alinhamentoSection {
+    margin-top: 50px;
     /*border: 2px solid #fefefe;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
     width: 100%;
-    text-indent: 32px;
+}
 
+#adesivoQualificacao {
+    max-width: 500px;
+}
+
+#textoQualificacao {
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: oblique;
 }
 
 #alinhamentoFormacao {
@@ -130,10 +137,21 @@ a {
 
 }
 
+#textoSkills {
+    /*border: 2px solid wheat;*/
+    padding-bottom: 40px;
+    margin-top: 40px;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: oblique;
+}
 .icone {
     display: inline-flex;
     margin: 15px;
+    margin: 15px;
     width: 16%;
+    /*border: 2px solid #fefefe;*/
 }
 
 #alinhamentoIcones {
@@ -150,18 +168,7 @@ a {
     margin-inline: auto;
 }
 
-.topo {
-    display: block;
-    text-align: center;
-    margin: auto;
-    font-family: "Julius Sans One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    margin-top: 71px;
-    /*border: 2px solid #fefefe;*/
-    
-}
+
 
 #flecha1 {
     display: flex;
@@ -174,7 +181,7 @@ a {
 .certificado {
     display: inline-flex;
     margin: 15px;
-    width: 45%;
+    width: 40%;
 }
 
 #imagemContato {
@@ -190,3 +197,29 @@ a {
     margin-top: 28px;
     width: 6%;
 }
+
+
+
+.topo {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+
+footer {
+    /*border: 2px solid #fefefe;*/
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
