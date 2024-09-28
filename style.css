@@ -7,11 +7,16 @@
     max-width: 760px;
     /*border: 2px solid #fefefe;*/
     padding-top: 60px;
+
+}
+
+section {
+    padding-top: 60px;
     min-height: 640px;
 }
 
 body {
-    background: url(./assets/Frame\ 8.png) no-repeat top center/cover;
+    background: url(/assets/background.png) no-repeat top center/cover;
     background-color: #111113;
     width: 100vw; /* Ocupa 100% da largura da viewport */
     height: 100vh; /* Ocupa 100% da altura da viewport */
@@ -23,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-.menu {
+#menu {
     text-align: center;
     display: flex;
     padding: auto;
@@ -38,14 +43,6 @@ a {
     font-style: normal;
     font-size: 23px;
 }
-
-/*#nome {
-    display: inline-flex;
-    margin: 8px;
-    font-family: "Julius Sans One", sans-serif;
-    font-weight: 400;
-    font-style: normal;      
-}*/
 
 #perfil {
     display: inline-flex;
@@ -89,7 +86,7 @@ a {
     margin-bottom: 20px;
 }
 
-#tituloSection {
+.tituloSection {
     /*border: 2px solid #fefefe;*/
     text-align: center;
     margin: auto;
@@ -110,11 +107,10 @@ a {
     
 }
 
-#alinhamentoSection {
+.alinhamentoSection {
     margin-top: 50px;
     /*border: 2px solid #fefefe;*/
     text-align: center;
-    width: 100%;
 }
 
 #adesivoQualificacao {
@@ -151,30 +147,6 @@ a {
     margin: 15px;
     margin: 15px;
     width: 16%;
-    /*border: 2px solid #fefefe;*/
-}
-
-#alinhamentoIcones {
-    margin-top: 50px;
-    /*border: 2px solid #fefefe;*/
-    text-align: center;
-    width: 100%;
-}
-
-#flechaSkills {
-    display: flex;
-    max-width: 110px;
-    margin: 30px;
-    margin-inline: auto;
-}
-
-
-
-#flecha1 {
-    display: flex;
-    max-width: 110px;
-    margin: 100px;
-    margin-inline: auto;
     /*border: 2px solid #fefefe;*/
 }
 
