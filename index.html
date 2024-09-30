@@ -14,66 +14,71 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <div class="container" id="topo">
+    <nav class="menu" id="topo">
+        <a href="#sobreMim" class="opcao">Sobre mim</a>
+        <a href="#formacao" class="opcao">Formação</a>
+        <a href="#skills" class="opcao">Skills</a>
+        <a href="#certificacoes" class="opcao">Certificações</a>
+        <a href="#contato" class="opcao">Contato</a>
+    </nav>
+    <div class="container">
         <header>
-            <nav id="menu">
-                <a href="#sobreMim" class="opcao">Sobre mim</a>
-                <a href="#formacao" class="opcao">Formação</a>
-                <a href="#skills" class="opcao">Skills</a>
-                <a href="#certificacoes" class="opcao">Certificações</a>
-                <a href="#contato" class="opcao">Contato</a>
-            </nav>
-            <div id="alinhamentoPerfil">
-                <img id="perfil" src="/assets/foto-inicial.png" alt="Foto de perfil Mateus Lora">
-                <h1 id="titulo">Portfólio Pessoal</h1>
+            <div class="alinhamentoPerfil">
+                <img class="perfil" src="/assets/foto-inicial.png" alt="Foto de perfil Mateus Lora">
+                <h1 class="titulo">Portfólio Pessoal</h1>
             </div>
-            <img id="flecha" src="/assets/flecha-rolagem.png" alt="">
+            <img class="flecha" src="/assets/flecha-rolagem.png" alt="">
         </header>
         <section id="sobreMim">
             <h2 class="tituloSection">Sobre Mim</h2>
             <div class="alinhamentoSection">
-                <div id="textoSobreMim">
+                <div class="textoSobreMim">
                     <p>
-                        Olá, me chamo Mateus, tenho 19 anos e estou cursando o segundo nível de Ciência da Computação. Sou profundamente interessado em Desenvolvimento de Software e Cyber Segurança. Desde criança, a tecnologia sempre me fascinou, e minha curiosidade em entender como as coisas funcionam foi o que me levou a escolher o curso. 
+                        Olá, me chamo Mateus, tenho 19 anos, sou de Itapuca/RS e estou cursando o segundo nível de Ciência da Computação. Sou profundamente interessado em Desenvolvimento de Software e Cyber Segurança. Desde criança, a tecnologia sempre me fascinou, e minha curiosidade em entender como as coisas funcionam foi o que me levou a escolher o curso. 
                     </p>
-                    <img id="imagemMateus" src="/assets/foto-sobremim.png" alt="Foto de Mateus Lora">
+                    <img class="imagemMateus" src="/assets/foto-sobremim.png" alt="Foto de Mateus Lora">
                     <p>
                         Estou focado em expandir meus conhecimentos por meio de projetos práticos e desafios constantes. Sou uma pessoa dedicada e determinada, que acredita no aprendizado contínuo como essencial para o sucesso na área de tecnologia. Por isso, estou sempre buscando me atualizar com as últimas tendências e inovações. 
                     </p>
                 </div>
             </div>
+            <a href="#topo" class="topo">Voltar ao topo</a>
         </section>
         <section id="formacao">
             <h2 class="tituloSection">Formação</h2>
             <div class="alinhamentoSection">
-                <img id="adesivoQualificacao" src="/assets/qualificacao.png" alt="Foto de Mateus Lora">
-                <div id="textoQualificacao">
+                <img class="adesivoQualificacao" src="/assets/qualificacao.png" alt="Foto de Mateus Lora">
+                <div class="textoQualificacao">
                     <p>
                         Atualmente, estou cursando a graduação em Ciência da Computação na Atitus Educação, onde estou desenvolvendo uma base sólida em sistemas e tecnologias. O curso, estruturado em nanodegrees, já me proporcionou a certificação em "Desenvolvimento de Aplicações Júnior" ao concluir o primeiro nível.
                     </p>
                 </div>
             </div>
+            <a href="#topo" class="topo">Voltar ao topo</a>
         </section>
         <section id="skills">
             <h2 class="tituloSection">Skills</h2>
             <div class="alinhamentoSection">
-                <div id="textoSkills">
+                <div class="textoSkills">
                     <p>
                         Entre minhas habilidades, destaco o conhecimento em Python, que foi a primeira linguagem com a qual tive contato. Atualmente, estou trabalhando com HTML, CSS e JavaScript, além de Java, com a qual já possuía certa familiaridade. Também considero importante mencionar meu conhecimento em Git para realizar o controle de versões.
                     </p>
                 </div>
-                <img class="icone" src="/assets/icone-python.png" alt="Ícone Python">
-                <img class="icone" src="/assets/icone-html.png" alt="Ícone HTML">
-                <img class="icone" src="/assets/icone-css.png" alt="Ícone CSS">
-                <img class="icone" src="/assets/icone-js.png" alt="Ícone JavaScript">
-                <img class="icone" src="/assets/icone-java.png" alt="Ícone JAVA">
-                <img class="icone" src="/assets/icone-git.png" alt="Ícone Git">
+                <div class="espacoSkills">
+                    <img class="icone" src="/assets/icone-python.png" alt="Ícone Python">
+                    <img class="icone" src="/assets/icone-html.png" alt="Ícone HTML">
+                    <img class="icone" src="/assets/icone-css.png" alt="Ícone CSS">
+                    <img class="icone" src="/assets/icone-js.png" alt="Ícone JavaScript">
+                    <img class="icone" src="/assets/icone-java.png" alt="Ícone JAVA">
+                    <img class="icone" src="/assets/icone-git.png" alt="Ícone Git">
+                </div>
             </div>
+            <a href="#topo" class="topo">Voltar ao topo</a>
         </section>
         <section id="certificacoes">
             <h2 class="tituloSection">Certificações</h2>
             <div class="alinhamentoSection">
-                <div id="textoSobreMim">
+                <div class="textoSobreMim">
                     <p>
                         Abaixo estão algumas das certificações que obtive até o momento.
                     </p>
@@ -82,16 +87,17 @@
                     <img class="certificado" src="/assets/certificado-java.png" alt="Certificado do IFRS de JAVA II">  
                 </div>
             </div>
+            <a href="#topo" class="topo">Voltar ao topo</a>
         </section>        
     </section>
     <section id="contato">
         <h2 class="tituloSection">Contato</h2>
         <div class="alinhamentoSection">
-            <div id="textoSobreMim">
+            <div class="textoSobreMim">
                 <p>
                     Agradeço por visitar meu portfólio! Se tiverem dúvidas ou quiserem trocar ideias, deixo abaixo minhas redes sociais para que possamos nos conectar.
                 </p>
-                <img id="imagemContato" src="/assets/foto-contato.png" alt="Mateus de terno preto">
+                <img class="imagemContato" src="/assets/foto-contato.png" alt="Mateus de terno preto">
                 <br>
                 <a href="https://www.linkedin.com/in/mateus-lora">
                     <img class="redeSocial" src="/assets/icone-linkedin.png" alt="Link para meu LinkedIn">
@@ -103,15 +109,14 @@
                 
                 <a href="https://www.instagram.com/mateus_lora_">
                     <img class="redeSocial" src="/assets/icone-instagram.png" alt="Link para meu Instagram">   
-                </a>
-                             
-                <a href="#topo" class="topo">Voltar ao topo</a>
+                </a>         
             </div>           
-        </div>       
+        </div> 
+        <a href="#topo" class="topo">Voltar ao topo</a>      
     </section>
+    </div>
     <footer>
         Feito com ❤️ e ☕ por Mateus Lora. Todos os direitos reservados.
     </footer>
-    </div>
 </body>
 </html>
